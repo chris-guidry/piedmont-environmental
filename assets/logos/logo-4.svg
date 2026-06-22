@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 132" role="img" aria-label="Piedmont Environmental">
+  <defs>
+    <clipPath id="l4-clip"><circle cx="66" cy="66" r="54"/></clipPath>
+  </defs>
+  <circle cx="66" cy="66" r="58" fill="#f4efe3"/>
+  <circle cx="66" cy="66" r="58" fill="none" stroke="#2f4a3c" stroke-width="2.6"/>
+  <g clip-path="url(#l4-clip)">
+    <rect x="12" y="12" width="108" height="108" fill="#eef0e4"/>
+    <circle cx="92" cy="48" r="13" fill="#b4603a" opacity="0.9"/>
+    <path d="M12 78 C 34 60 52 60 74 72 C 92 82 108 78 120 70 L120 120 L12 120 Z" fill="#88a17f"/>
+    <path d="M12 96 C 30 84 50 86 70 94 C 90 102 106 100 120 92 L120 120 L12 120 Z" fill="#4a6b54"/>
+    <g stroke="#2f4a3c" stroke-width="2.2" fill="none" stroke-linecap="round">
+      <path d="M44 96 L44 78"/>
+    </g>
+    <circle cx="44" cy="72" r="8" fill="#2f4a3c"/>
+    <circle cx="36" cy="78" r="6" fill="#2f4a3c"/>
+    <circle cx="52" cy="78" r="6" fill="#2f4a3c"/>
+  </g>
+  <!-- wordmark -->
+  <g font-family="Georgia, 'Times New Roman', serif">
+    <text x="146" y="54" font-size="32" fill="#2f4a3c" font-style="italic" letter-spacing="0.5">Piedmont</text>
+    <text x="146" y="84" font-size="22" fill="#4a6b54" letter-spacing="2.5">Environmental</text>
+    <text x="148" y="110" font-size="10.5" fill="#6b6256" letter-spacing="3" font-family="Helvetica, Arial, sans-serif">LANDSCAPE&#160;DESIGN&#160;&amp;&#160;CONSULTATION</text>
+  </g>
+</svg>

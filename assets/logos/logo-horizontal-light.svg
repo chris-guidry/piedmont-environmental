@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 104" role="img" aria-label="Piedmont Environmental">
+  <!-- sprout mark (no tile, for dark backgrounds) -->
+  <g transform="translate(46,52) scale(0.92)">
+    <path d="M0 30 C 0 15 0 2 0 -20" fill="none" stroke="#e8e2d3" stroke-width="3.4" stroke-linecap="round"/>
+    <path d="M0 2 C -21 0 -32 -13 -32 -30 C -13 -28 -2 -15 0 2 Z" fill="#88a17f"/>
+    <path d="M0 -9 C 19 -11 32 -21 34 -38 C 15 -36 2 -25 0 -9 Z" fill="#f4efe3"/>
+    <circle cx="0" cy="30" r="4.8" fill="#cf7a4f"/>
+  </g>
+  <!-- one-line wordmark -->
+  <text x="100" y="65" font-family="'Gill Sans','Avenir Next',Helvetica,Arial,sans-serif"
+        font-size="37" font-weight="600" letter-spacing="1.2" fill="#f4efe3">Piedmont&#160;<tspan fill="#aebfa3">Environmental</tspan></text>
+</svg>

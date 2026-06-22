@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Logo Options — Piedmont Environmental</title>
+  <style>
+    :root{
+      --ink:#2b2925; --green:#2f4a3c; --green-mid:#4a6b54; --sage:#88a17f;
+      --stone:#f4efe3; --stone-2:#ece4d3; --rust:#b4603a;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Helvetica,Arial,sans-serif;color:var(--ink);
+      background:var(--stone-2);padding:48px 24px;}
+    h1{font-family:Georgia,serif;color:var(--green);text-align:center;font-weight:600;margin:0 0 6px}
+    .sub{text-align:center;color:#6b6256;margin:0 0 40px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));
+      gap:28px;max-width:1100px;margin:0 auto;}
+    .card{background:var(--stone);border:1px solid #ddd3bf;border-radius:16px;
+      padding:30px;box-shadow:0 6px 24px rgba(47,74,60,.08);}
+    .tag{display:inline-block;font-size:12px;letter-spacing:1px;text-transform:uppercase;
+      color:var(--rust);font-weight:700;margin-bottom:4px}
+    .name{font-family:Georgia,serif;color:var(--green);font-size:20px;margin:0 0 18px}
+    .stage{display:flex;align-items:center;justify-content:center;min-height:150px;
+      background:#fff;border-radius:10px;padding:18px;margin-bottom:14px}
+    .stage svg{max-width:100%;height:auto;max-height:130px}
+    .badge .stage svg{max-height:150px}
+    .ondark{background:var(--green)}
+    .row{display:flex;gap:14px}
+    .row .stage{flex:1;min-height:96px}
+    .desc{font-size:13.5px;color:#5d564b;line-height:1.5;margin:14px 0 0}
+  </style>
+</head>
+<body>
+  <h1>Choose a Logo</h1>
+  <p class="sub">Four directions for Piedmont Environmental — shown on light and dark. Pick one and I'll wire it into the site.</p>
+  <div class="grid">
+
+    <div class="card badge">
+      <span class="tag">Option 1 · From the sketch</span>
+      <h3 class="name">Modernized Emblem</h3>
+      <div class="row">
+        <div class="stage"><img src="assets/logos/logo-1.svg" alt="Logo 1 light"></div>
+        <div class="stage ondark"><img src="assets/logos/logo-1.svg" alt="Logo 1 dark" style="filter:invert(1) hue-rotate(180deg) brightness(1.6)"></div>
+      </div>
+      <p class="desc">A cleaned-up, balanced version of his original hand-drawn tree-in-circle stamp. Most faithful to the existing brand; classic and trustworthy. Works as a round badge / favicon.</p>
+    </div>
+
+    <div class="card">
+      <span class="tag">Option 2 · From the sketch</span>
+      <h3 class="name">Tree Mark + Wordmark</h3>
+      <div class="stage"><img src="assets/logos/logo-2.svg" alt="Logo 2"></div>
+      <div class="stage ondark"><img src="assets/logos/logo-2.svg" alt="Logo 2 dark"></div>
+      <p class="desc">The tree reduced to a solid-green coin paired with a refined serif wordmark. Horizontal lockup that reads well in a site header. Keeps the roots-and-canopy idea, but cleaner and more modern.</p>
+    </div>
+
+    <div class="card">
+      <span class="tag">Option 3 · Fresh concept</span>
+      <h3 class="name">Sprout Tile</h3>
+      <div class="stage"><img src="assets/logos/logo-3.svg" alt="Logo 3"></div>
+      <div class="stage ondark"><img src="assets/logos/logo-3.svg" alt="Logo 3 dark"></div>
+      <p class="desc">A contemporary two-leaf sprout in a rounded tile with a geometric sans wordmark. The most "design studio" / modern of the set — speaks to new growth and fresh starts for a homeowner's yard.</p>
+    </div>
+
+    <div class="card">
+      <span class="tag">Option 4 · Fresh concept</span>
+      <h3 class="name">Piedmont Hills Roundel</h3>
+      <div class="stage"><img src="assets/logos/logo-4.svg" alt="Logo 4"></div>
+      <div class="stage ondark"><img src="assets/logos/logo-4.svg" alt="Logo 4 dark"></div>
+      <p class="desc">A rustic, woodcut-style scene of the rolling Piedmont hills with a sun and a single tree. Leans into "place" and the regional, ecological story; warmest and most illustrative option.</p>
+    </div>
+
+  </div>
+</body>
+</html>
