@@ -17,6 +17,6 @@
   </svg>
   <!-- one-line wordmark -->
   <text x="112" y="64" font-family="Georgia,'Times New Roman',serif" font-size="37">
-    <tspan font-style="italic" fill="#2f4a3c">Piedmont</tspan><tspan dx="11" fill="#4a6b54">Environmental</tspan>
+    <tspan font-style="italic" fill="#2f4a3c" textLength="159" lengthAdjust="spacingAndGlyphs">Piedmont</tspan><tspan dx="11" fill="#4a6b54" textLength="247" lengthAdjust="spacingAndGlyphs">Environmental</tspan>
   </text>
 </svg>
